@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empati &amp; Riset – MINDWELL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">MIND<span>WELL</span>.3</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="swot.html">Analisis SWOT</a></li>
+                <li><a href="empathy.html" class="active">Empati &amp; Riset</a></li>
+                <li><a href="ideation.html">Ideasi</a></li>
+                <li><a href="prototype.html">Prototipe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-hero">
+        <div class="container">
+            <span class="badge">Bagian B – Design Thinking Tahap 1</span>
+            <h1>Empati &amp; <span>Riset</span></h1>
+            <p>Memahami audiens melalui survei, analisis 4W1H, dan matriks riset empati untuk mengidentifikasi akar masalah kesehatan mental mahasiswa.</p>
+        </div>
+    </div>
+
+    <main class="container" style="padding-top: 3rem; padding-bottom: 4rem;">
+
+        <div class="progress-bar">
+            <a href="empathy.html" class="progress-step active"><span class="step-num">1</span>Empati &amp; Riset</a>
+            <a href="ideation.html" class="progress-step"><span class="step-num">2</span>Ideasi</a>
+            <a href="prototype.html" class="progress-step"><span class="step-num">3</span>Prototipe</a>
+        </div>
+
+        <!-- Metode Pengumpulan Data -->
+        <div class="content-card">
+            <div class="section-number">A</div>
+            <h3>Cara Pengumpulan Data &amp; Alasannya</h3>
+            <p>Menggunakan <strong>Google Forms</strong> sebagai instrumen survei yang disebarkan kepada komunitas mahasiswa lokal (semester 1 hingga mahasiswa tingkat akhir) untuk mengukur tingkat distres psikologis dan tekanan akademik. Google Forms dipilih karena:</p>
+            <ul>
+                <li>Pengaturan yang sederhana sehingga siapapun dapat mengumpulkan informasi dengan mudah dan akurat.</li>
+                <li>Mendukung respons anonim, mendorong kejujuran dalam menjawab pertanyaan sensitif.</li>
+                <li>Skalabel dan efisien untuk menjangkau banyak responden dalam waktu singkat.</li>
+                <li>Data tersimpan otomatis dan dapat diekspor untuk analisis lanjutan.</li>
+            </ul>
+            <p style="margin-top: 1rem;">Jawaban disusun dalam <strong>skala 1–5</strong>, di mana 1 berarti "Tidak Pernah/Sangat Rendah" dan 5 berarti "Selalu/Sangat Tinggi".</p>
+        </div>
+
+        <!-- Pertanyaan Survei -->
+        <div class="content-card">
+            <div class="section-number">B</div>
+            <h3>Instrumen Survei (Kuesioner)</h3>
+            <p>Survei terdiri dari 13 pertanyaan yang mencakup data demografi dan indikator kesehatan mental:</p>
+            <ol>
+                <li><strong>Q1.</strong> Jenis Kelamin</li>
+                <li><strong>Q2.</strong> Usia</li>
+                <li><strong>Q3.</strong> Status Kuliah Saat Ini</li>
+                <li><strong>Q4.</strong> Saya merasa stres karena tugas kuliah / skripsi.</li>
+                <li><strong>Q5.</strong> Saya merasa cemas terhadap masa depan akademik saya.</li>
+                <li><strong>Q6.</strong> Saya sulit berkonsentrasi saat belajar.</li>
+                <li><strong>Q7.</strong> Saya merasa kelelahan secara mental.</li>
+                <li><strong>Q8.</strong> Saya kehilangan motivasi untuk mengerjakan tugas.</li>
+                <li><strong>Q9.</strong> Saya merasa sedih atau tertekan tanpa alasan jelas.</li>
+                <li><strong>Q10.</strong> Saya mengalami gangguan tidur karena pikiran berlebihan.</li>
+                <li><strong>Q11.</strong> Saya masih dapat menikmati aktivitas sehari-hari.</li>
+                <li><strong>Q12.</strong> Apa sumber tekanan utama yang Anda alami? (Boleh pilih lebih dari satu)</li>
+                <li><strong>Q13.</strong> Saat merasa tertekan, biasanya Anda bercerita kepada:</li>
+            </ol>
+        </div>
+
+        <!-- Temuan Survei -->
+        <div class="content-card">
+            <div class="section-number">C</div>
+            <h3>Temuan &amp; Analisis Data Survei</h3>
+            <h4>Data Demografi Responden (N = 25)</h4>
+            <div class="survey-grid">
+                <div class="survey-stat">
+                    <div class="number">25</div>
+                    <div class="label">Total Responden</div>
+                </div>
+                <div class="survey-stat">
+                    <div class="number">48%</div>
+                    <div class="label">Laki-laki</div>
+                </div>
+                <div class="survey-stat">
+                    <div class="number">40%</div>
+                    <div class="label">Perempuan</div>
+                </div>
+                <div class="survey-stat">
+                    <div class="number">64%</div>
+                    <div class="label">Usia 20–22 Tahun</div>
+                </div>
+                <div class="survey-stat">
+                    <div class="number">44%</div>
+                    <div class="label">Semester 5–6</div>
+                </div>
+            </div>
+
+            <h4>Temuan Utama Kondisi Mental Mahasiswa</h4>
+            <ul>
+                <li><strong>Tekanan Akademik:</strong> 44% responden memberi skor 4 dan 20% memberi skor 5 terkait stres akibat tugas kuliah/skripsi — artinya <strong>64% responden mengalami stres akademik pada tingkat tinggi</strong>.</li>
+                <li><strong>Kecemasan Masa Depan:</strong> Tingkat kecemasan terhadap masa depan akademik sangat tinggi, di mana 41,7% memilih skor 4 dan 37,5% memilih skor 5.</li>
+                <li><strong>Kelelahan Mental:</strong> Sebanyak 40% responden merasa kelelahan secara mental (skor 4 dan 5).</li>
+                <li><strong>Gangguan Tidur:</strong> 32% responden mengalami gangguan tidur akibat overthinking.</li>
+                <li><strong>Kehilangan Motivasi:</strong> 44% responden kehilangan motivasi untuk mengerjakan tugas (skor 4 dan 5).</li>
+                <li><strong>Sulit Berkonsentrasi:</strong> 48% responden melaporkan kesulitan berkonsentrasi saat belajar.</li>
+                <li><strong>Kondisi Emosional:</strong> 28% melaporkan perasaan sedih tanpa alasan jelas pada tingkat tinggi; namun 68% masih dapat menikmati aktivitas sehari-hari pada skala moderat–tinggi.</li>
+            </ul>
+
+            <h4>Sumber Tekanan Utama (Multi-pilih)</h4>
+            <ul>
+                <li>Tugas Kuliah — <strong>80%</strong></li>
+                <li>Nilai Akademik — 52%</li>
+                <li>Pekerjaan — 48%</li>
+                <li>Skripsi — 36%</li>
+                <li>Keluarga — 36%</li>
+                <li>Hubungan Pertemanan atau Cinta — 32%</li>
+                <li>Masalah Keuangan — 28%</li>
+                <li>Organisasi — 20%</li>
+            </ul>
+
+            <h4>Pola Pencarian Dukungan (Support System)</h4>
+            <ul>
+                <li>Teman — <strong>68%</strong></li>
+                <li>Keluarga — 24%</li>
+                <li>Pasangan — 12%</li>
+                <li>Konselor / Psikolog Profesional — <strong>hanya 8%</strong></li>
+                <li>Memendam sendiri / tidak bercerita — 4%</li>
+            </ul>
+
+            <div class="info-box" style="margin-top: 1.5rem;">
+                <strong>Respons terhadap Bukti:</strong> Data ini membuktikan urgensi penyediaan sistem intervensi kesehatan mental digital yang menyediakan wadah konseling aman dan fitur skrining mandiri. Kesenjangan antara preferensi curhat ke teman (68%) dan akses ke profesional (8%) menjadi dasar utama desain platform MINDWELL yang bersifat anonim dan mudah diakses.
+            </div>
+        </div>
+
+        <!-- Empathy Research Matrix -->
+        <div class="content-card">
+            <div class="section-number">D</div>
+            <h3>Matriks Riset dengan Empati</h3>
+            <p><strong>Tujuan dan Target UN:</strong> Tingginya tingkat stres, kecemasan, dan kelelahan mental pada remaja khususnya mahasiswa yang disebabkan oleh tekanan tugas, tuntutan akademik, masalah ekonomi, serta kurangnya tempat curhat atau layanan konseling yang mudah dijangkau.</p>
+            <p style="margin-top: 0.8rem;"><strong>Aspek yang diteliti:</strong> Mengembangkan sistem intervensi kesehatan mental digital yang terintegrasi untuk mahasiswa, guna menyediakan wadah konseling yang aman serta fitur skrining mandiri sebagai deteksi dini gangguan mental emosional.</p>
+
+            <div style="overflow-x: auto; margin-top: 1.5rem;">
+                <table class="matrix-table">
+                    <thead>
+                        <tr>
+                            <th>Dimensi</th>
+                            <th>Riliv (PT Riliv Psikologi Indonesia)</th>
+                            <th>Halodoc (PT Media Dokter Investama)</th>
+                            <th>Puskesmas Kecamatan/Terdekat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Layanan yang disediakan</td>
+                            <td>Konseling online via chat dengan psikolog, meditasi terbimbing, jurnal harian, artikel edukasi kesehatan mental.</td>
+                            <td>Konsultasi chat/video dengan psikiater/psikolog, resep obat psikiatri online, fitur "Tanya Dokter" 24 jam.</td>
+                            <td>Konseling dasar, pemeriksaan kesehatan jiwa ringan, dan rujukan ke rumah sakit jika diperlukan.</td>
+                        </tr>
+                        <tr>
+                            <td>Target Audiens</td>
+                            <td>Remaja, mahasiswa, serta orang dewasa.</td>
+                            <td>Semua kelompok usia dengan akses internet.</td>
+                            <td>Masyarakat umum, pelajar, mahasiswa, warga sekitar.</td>
+                        </tr>
+                        <tr>
+                            <td>Biaya Akses</td>
+                            <td>Fitur meditasi gratis; sesi konseling Rp100.000–Rp150.000/sesi.</td>
+                            <td>Unduh gratis; konsultasi psikiater/psikolog Rp150.000–Rp500.000/sesi.</td>
+                            <td>Gratis dengan BPJS; Rp5.000–Rp20.000 tanpa BPJS.</td>
+                        </tr>
+                        <tr>
+                            <td>Kesenjangan Layanan</td>
+                            <td>Harga konseling masih dianggap mahal oleh mahasiswa.</td>
+                            <td>Biaya konsultasi tinggi; mental health bukan fokus utama platform.</td>
+                            <td>Jam pelayanan terbatas, antrean panjang, tidak semua puskesmas memiliki psikolog khusus.</td>
+                        </tr>
+                        <tr>
+                            <td>Wawasan Lainnya</td>
+                            <td>Platform digital mengurangi hambatan psikologis (stigma/malu) via anonimitas, namun konsistensi penggunaan masih jadi tantangan.</td>
+                            <td>Platform kesehatan terbesar di Indonesia; mental health hanya satu dari banyak layanan.</td>
+                            <td>Pilihan penting karena dekat dan terjangkau, tetapi kapasitas terbatas.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Referensi -->
+        <div class="content-card">
+            <h3>Referensi</h3>
+            <ul class="ref-list">
+                <li>Universitas Gadjah Mada. (2022, Oktober 24). <em>Hasil survei I-NAMHS: Satu dari tiga remaja Indonesia memiliki masalah kesehatan mental.</em> <a href="https://ugm.ac.id/id/berita/23086-hasil-survei-i-namhs-satu-dari-tiga-remaja-indonesia-memiliki-masalah-kesehatan-mental/" target="_blank">https://ugm.ac.id/id/berita/...</a></li>
+                <li>Kementerian Kesehatan RI. (2021, Oktober 6). <em>Kemenkes beberkan masalah permasalahan kesehatan jiwa di Indonesia.</em> <a href="https://kemkes.go.id/id/kemenkes-beberkan-masalah-permasalahan-kesehatan-jiwa-di-indonesia" target="_blank">https://kemkes.go.id/id/...</a></li>
+                <li>World Health Organization. (2021, November 17). <em>Adolescent mental health.</em> <a href="https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health" target="_blank">https://www.who.int/news-room/...</a></li>
+                <li>Unicef Indonesia. (2025). <em>Profil kesehatan remaja.</em> <a href="https://www.unicef.org/indonesia/id/kesehatan/laporan/profil-kesehatan-remaja" target="_blank">https://www.unicef.org/indonesia/...</a></li>
+            </ul>
+        </div>
+
+        <div class="page-nav">
+            <a href="swot.html" class="btn-secondary">← Analisis SWOT</a>
+            <a href="ideation.html" class="btn-primary">Ideasi →</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 <strong>Adhitya Wardhana</strong> | Proyek STEM – SDG 3 Kesehatan Mental Mahasiswa</p>
+    </footer>
+</body>
+</html>

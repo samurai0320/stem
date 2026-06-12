@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototipe – MINDWELL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">MIND<span>WELL</span>.3</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="swot.html">Analisis SWOT</a></li>
+                <li><a href="empathy.html">Empati &amp; Riset</a></li>
+                <li><a href="ideation.html">Ideasi</a></li>
+                <li><a href="prototype.html" class="active">Prototipe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-hero">
+        <div class="container">
+            <span class="badge">Bagian B – Design Thinking Tahap 3</span>
+            <h1>Pembuatan <span>Prototipe</span></h1>
+            <p>Analisis Starburst (5W1H) dan Lean Canvas untuk memperjelas masalah, audiens, dan solusi yang diusulkan secara komprehensif.</p>
+        </div>
+    </div>
+
+    <main class="container" style="padding-top: 3rem; padding-bottom: 4rem;">
+
+        <div class="progress-bar">
+            <a href="empathy.html" class="progress-step"><span class="step-num">1</span>Empati &amp; Riset</a>
+            <a href="ideation.html" class="progress-step"><span class="step-num">2</span>Ideasi</a>
+            <a href="prototype.html" class="progress-step active"><span class="step-num">3</span>Prototipe</a>
+        </div>
+
+        <!-- Starburst Section -->
+        <div class="content-card" style="margin-bottom: 2rem;">
+            <div class="section-number">A</div>
+            <h3>Analisis Starburst (5W1H)</h3>
+            <p>Menggunakan kerangka siapa, mengapa, bagaimana, apa, dan di mana untuk memastikan semua aspek masalah dan solusi telah dipertimbangkan secara mendalam.</p>
+        </div>
+
+        <div class="starburst-grid">
+            <div class="starburst-card">
+                <div class="question">WHO?</div>
+                <h4>Siapa Target Pengguna?</h4>
+                <p>Mahasiswa aktif dari semua tingkatan, mulai dari semester awal hingga tingkat akhir yang sedang disibukkan dengan skripsi. Platform ini dirancang khusus bagi mereka yang membutuhkan tempat aman untuk sekadar curhat atau sedang mencari bantuan profesional terkait kondisi mentalnya, tanpa hambatan stigma atau biaya.</p>
+            </div>
+
+            <div class="starburst-card">
+                <div class="question">WHY?</div>
+                <h4>Mengapa Diperlukan?</h4>
+                <p>Kesehatan mental memiliki dampak signifikan terhadap performa akademik dan kualitas hidup mahasiswa sehari-hari. Mengingat masih kuatnya stigma mengenai kunjungan ke psikolog, platform ini menyediakan ruang anonim yang aman agar mahasiswa bisa mendapatkan akses bantuan secara instan tanpa hambatan prosedur yang rumit. Hanya 8% yang mencari bantuan profesional — platform ini menjembatani kesenjangan itu.</p>
+            </div>
+
+            <div class="starburst-card">
+                <div class="question">HOW?</div>
+                <h4>Bagaimana Cara Kerjanya?</h4>
+                <p>Sistem bekerja melalui tiga fungsi utama: (1) skrining mandiri tanpa login yang langsung memberi skor dan saran tindak lanjut; (2) formulir curhat anonim yang ditanggapi konselor secara profesional tanpa mengungkap identitas pengirim; dan (3) direktori lengkap konselor kampus beserta jadwal dan spesialisasinya untuk dihubungi langsung.</p>
+            </div>
+
+            <div class="starburst-card">
+                <div class="question">WHAT?</div>
+                <h4>Apa Solusi yang Ditawarkan?</h4>
+                <p>Platform berbasis web yang menjawab keresahan mahasiswa saat stres atau cemas, serta kesulitan menemukan layanan konseling gratis yang mudah diakses. Keunggulannya: akses tanpa unduh aplikasi, skrining kondisi mental mandiri, dan jaminan kerahasiaan identitas melalui fitur anonim. Kode unik otomatis memastikan mahasiswa bisa melacak respons konselor tanpa perlu akun.</p>
+            </div>
+
+            <div class="starburst-card">
+                <div class="question">WHERE?</div>
+                <h4>Di Mana Diakses?</h4>
+                <p>Platform dapat diakses secara fleksibel di mana pun mahasiswa berada — di lingkungan kampus, kos, atau rumah. Pengguna hanya perlu web browser untuk terhubung dengan layanan ini. Desain low-data memastikan aksesibilitas bahkan dengan koneksi internet terbatas. Tidak ada batasan waktu; tersedia 24 jam sehari, 7 hari seminggu.</p>
+            </div>
+        </div>
+
+        <!-- Lean Canvas -->
+        <div class="content-card" style="margin-top: 3rem; margin-bottom: 2rem;">
+            <div class="section-number">B</div>
+            <h3>Lean Canvas Model</h3>
+            <p>Model Lean Canvas untuk memperjelas pemikiran tentang masalah yang ditetapkan dan solusi yang diusulkan. Perlu dicatat bahwa tidak semua aspek Lean Canvas relevan untuk proyek sosial ini.</p>
+        </div>
+
+        <!-- Lean Canvas Grid (responsive table) -->
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1rem;">
+            <div class="lean-cell">
+                <span class="cell-title">1. Masalah</span>
+                <ul>
+                    <li>Stigma dan rasa malu saat mengakses layanan kesehatan mental</li>
+                    <li>Kesulitan menemukan jadwal konselor kampus secara cepat</li>
+                    <li>Tidak ada alat skrining praktis untuk mengetahui tingkat stres</li>
+                    <li>Koneksi internet mahasiswa yang sering terbatas</li>
+                    <li><em>Alternatif yang ada: diam, memendam masalah, atau curhat ke teman</em></li>
+                </ul>
+            </div>
+            <div class="lean-cell" style="grid-row: span 2;">
+                <span class="cell-title">3. Proposisi Nilai Unik</span>
+                <p><strong>"Aplikasi Konseling Instan Kampus: Cek Mental dan Curhat Kapan Saja, Aman Tanpa Identitas, Sedekat Jangkauan Jari."</strong></p>
+                <br>
+                <p>Keunggulan dibanding solusi lain:</p>
+                <ul>
+                    <li><strong>Ekosistem Paling Fleksibel:</strong> Bisa diunduh atau cukup pakai web browser bawaan HP</li>
+                    <li><strong>Simpan Kode Unik Otomatis:</strong> Keluhan tersimpan di local storage tanpa akun</li>
+                    <li><strong>Anonimitas Total:</strong> Tidak ada kewajiban pendaftaran email/password</li>
+                </ul>
+            </div>
+            <div class="lean-cell">
+                <span class="cell-title">4. Keuntungan Tidak Adil</span>
+                <ul>
+                    <li>Kemitraan eksklusif dengan jaringan pusat konseling universitas</li>
+                    <li>Integrasi langsung dengan biro kemahasiswaan kampus</li>
+                    <li>Kepercayaan yang dibangun melalui anonimitas terverifikasi</li>
+                </ul>
+            </div>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1rem;">
+            <div class="lean-cell">
+                <span class="cell-title">Solusi yang Diajukan</span>
+                <ul>
+                    <li>Aplikasi Mobile &amp; Web low-data</li>
+                    <li>Skrining mandiri tanpa login</li>
+                    <li>Formulir curhat anonim terenkripsi</li>
+                    <li>Direktori konselor kampus</li>
+                </ul>
+            </div>
+            <div class="lean-cell">
+                <span class="cell-title">Key Metrics (Indikator Sukses)</span>
+                <ul>
+                    <li>Jumlah unduhan aplikasi &amp; kunjungan web</li>
+                    <li>Waktu respons konselor atas form curhat</li>
+                    <li>Jumlah mahasiswa yang berhasil dirujuk ke layanan profesional</li>
+                    <li>Skor kepuasan pengguna</li>
+                </ul>
+            </div>
+            <div class="lean-cell">
+                <span class="cell-title">2. Segmentasi Audiens</span>
+                <ul>
+                    <li>Mahasiswa aktif semua tingkatan</li>
+                    <li>Mahasiswa tingkat akhir (skripsi/burnout)</li>
+                    <li>Komunitas peduli kesehatan mental kampus</li>
+                    <li><em>Early adopter: mahasiswa tingkat akhir yang rentan stres</em></li>
+                </ul>
+            </div>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+            <div class="lean-cell">
+                <span class="cell-title">Channels (Cara Komunikasi Solusi)</span>
+                <ul>
+                    <li>Sosialisasi program orientasi mahasiswa baru (OSPEK)</li>
+                    <li>Kerja sama BEM / himpunan mahasiswa</li>
+                    <li>Media sosial resmi kampus</li>
+                    <li>Standing banner / QR Code di mading dan fasilitas umum kampus</li>
+                </ul>
+            </div>
+            <div class="lean-cell">
+                <span class="cell-title">Perkiraan Biaya</span>
+                <ul>
+                    <li>Pengembangan UI/UX, coding aplikasi mobile (Android/iOS) dan website</li>
+                    <li>Sewa server cloud (hosting), database, lisensi developer</li>
+                    <li>Konten artikel tips self-help dan panduan kesehatan mental</li>
+                    <li>Apresiasi/kompensasi relawan konselor dan psikolog kampus</li>
+                </ul>
+            </div>
+        </div>
+        <div class="lean-cell" style="margin-bottom: 1rem;">
+            <span class="cell-title">Perkiraan Pendapatan / Keberlanjutan (mungkin tidak relevan untuk semua aspek)</span>
+            <ul style="display: flex; flex-wrap: wrap; gap: 1.5rem; list-style: none; padding: 0;">
+                <li>✅ Kerjasama institusional dengan universitas (berlangganan per kampus)</li>
+                <li>✅ Hibah atau dana CSR dari lembaga peduli kesehatan mental</li>
+                <li>✅ Donasi sukarela dari pengguna atau komunitas</li>
+                <li>✅ Sponsorship dari brand wellness/edukasi (dengan tetap menjaga privasi pengguna)</li>
+            </ul>
+        </div>
+
+        <div class="page-nav">
+            <a href="ideation.html" class="btn-secondary">&larr; Ideasi</a>
+            <a href="swot.html" class="btn-primary">Lihat SWOT &rarr;</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 <strong>Adhitya Wardhana</strong> | Proyek STEM – SDG 3 Kesehatan Mental Mahasiswa</p>
+    </footer>
+</body>
+</html>
